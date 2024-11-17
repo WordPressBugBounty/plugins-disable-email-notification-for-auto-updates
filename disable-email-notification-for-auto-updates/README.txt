@@ -3,8 +3,8 @@ Contributors: ideastocode
 Donate link: https://ideastocode.com/
 Tags: Disable, auto-updates, themes, plugin, Wordpress, core, updates, stop, notification, emails, automatic
 Requires at least: 5.5
-Tested up to: 6.6
-Stable tag:   1.0.1
+Tested up to: 6.7
+Stable tag:   1.0.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -47,6 +47,9 @@ No, this plugin will only disable the email notifications that you receive after
 
 == Changelog ==
 
+= 1.0.2 =
+* Minor Updates
+
 = 1.0.1 =
 * Minor Updates
 
@@ -54,4 +57,4 @@ No, this plugin will only disable the email notifications that you receive after
 * Initial release.
 
 == Upgrade Notice ==
-Please update to the latest version 1.0.1
+Please update to the latest version 1.0.2

@@ -9,7 +9,7 @@
  * Plugin Name:       Disable Email Notification for auto-updates
  * Plugin URI:        https://ideastocode.com/plugins/disable-automatic-update-email-notification-in-wordpress/
  * Description:       This plugin will disable email notifications that WordPress sends, after an auto-update of plugins, themes, or WordPress.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            ideasToCode
  * Author URI:        http://ideastocode.com/
  * License:           GPL-2.0+
@@ -23,7 +23,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION', '1.0.1' );
+define( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION', '1.0.2' );
 if ( ! defined( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_BASENAME' ) ) {
 	define( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_BASENAME', plugin_basename( __FILE__ ) );
 }

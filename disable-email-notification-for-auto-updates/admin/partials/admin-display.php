@@ -1,6 +1,7 @@
 <?php 
 $availableTabs = array(
 	'settings' => 'Settings',
+	'youtube' => 'YouTube',
 	'other_plugins' => 'Other Plugins',
 	'about' => 'About',
 );
