@@ -98,6 +98,8 @@ class ITC_Disable_Update_Notifications extends ITC_Disable_Update_Notifications_
 			$plugin_update_manager = new ITC_Disable_Update_Notifications_Wordpress_Plugin( $disable_plugin_updates_settings );
 			add_filter( 'site_transient_update_plugins', [ $plugin_update_manager, 'disable_plugin_updates_itc' ] );
 			add_filter( 'auto_update_plugin', [ $plugin_update_manager, 'filter_plugin_auto_update_itc' ], 10, 2 );
+			add_action( 'admin_head', [ $plugin_update_manager, 'add_custom_css_js_hide_plugins_itc' ] );
+	
 		}
 	}
 

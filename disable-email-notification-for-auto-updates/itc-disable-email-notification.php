@@ -9,7 +9,7 @@
  * Plugin Name:       Disable Auto Update Emails and Block Updates for Plugins, WP Core, and Themes
  * Plugin URI:        https://ideastocode.com/plugins/disable-automatic-update-email-notification-in-wordpress/
  * Description:       Key Features: Disable Auto-Update Emails, Block Specific Plugins, Core, or Theme Updates.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            ideasToCode
  * Author URI:        http://ideastocode.com/
  * License:           GPL-2.0+
@@ -23,7 +23,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION', '1.0.3' );
+define( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION', '1.0.4' );
 if ( ! defined( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_BASENAME' ) ) {
 	define( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_BASENAME', plugin_basename( __FILE__ ) );
 }

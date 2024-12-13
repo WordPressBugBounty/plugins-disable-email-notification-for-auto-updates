@@ -13,8 +13,10 @@ $plugins = get_plugins();
             <?php foreach ( $plugins as $plugin_file => $plugin_data ): ?>
                 <?php 
                 $plugin_key = $plugin_file; // Use plugin file as key
+                $plugin_slug = dirname( $plugin_file ); // Get plugin slug
+                $plugin_id = $plugin_slug;  
                 ?>
-                <tr valign="top">
+                <tr valign="top" id="<?php echo esc_attr( $plugin_id ); ?>"> 
                     <th scope="row" class="menu_tbl_heading">
                         <label for="<?php echo esc_attr( $settings_slug_sanitized . "[" . $plugin_key . "]" ); ?>">
                             <span><?php echo esc_html( $plugin_data['Name'] ); ?></span>
@@ -26,6 +28,8 @@ $plugins = get_plugins();
                             <i></i>
                         </label>
                     </td>
+                    <td>
+                     </td>
                 </tr>
             <?php endforeach; ?>
         </table>

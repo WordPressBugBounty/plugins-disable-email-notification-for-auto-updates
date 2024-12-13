@@ -26,8 +26,8 @@ class ITC_Disable_Update_Notifications_Admin extends ITC_Disable_Update_Notifica
 
     public function itc_disable_update_notifications_action_links( $links ) {
         $plugin_slug_name = $this->get_plugin_slug();
-        $links1 = '<a href="https://buymeacoffee.com/ideastocode" target="_blank" style="font-weight:bold;">' . esc_html__( 'Donate', 'wp-custom-search-box-itc' ) . '</a>';
-        $links2 = '<a href="' . esc_url( menu_page_url( $plugin_slug_name, false ) ) . '">' . esc_html__( 'Settings', 'wp-custom-search-box-itc' ) . '</a>';
+        $links1 = '<a href="https://buymeacoffee.com/ideastocode" target="_blank" style="font-weight:bold;">' . esc_html__( 'Donate', 'disable-email-notification-for-auto-updates' ) . '</a>';
+        $links2 = '<a href="' . esc_url( menu_page_url( $plugin_slug_name, false ) ) . '">' . esc_html__( 'Settings', 'disable-email-notification-for-auto-updates' ) . '</a>';
         array_unshift( $links, $links1, $links2 );
         return $links;
     }
@@ -117,15 +117,15 @@ class ITC_Disable_Update_Notifications_Admin extends ITC_Disable_Update_Notifica
         <div class="notice notice-info itc-svg-upload-notice">
             <div class="notice-content">
                 <p class="notice-text">
-                    <strong><?php esc_html_e( 'New Features Added: ', 'wp-custom-search-box-itc' ); ?></strong>
-                    <?php esc_html_e( ' Block specific plugin updates, block WordPress core and theme updates, or remove the update button under the Dashboard menu.', 'wp-custom-search-box-itc' ); ?>
+                    <strong><?php esc_html_e( 'New Features Added: ', 'disable-email-notification-for-auto-updates' ); ?></strong>
+                    <?php esc_html_e( ' Block specific plugin updates, block WordPress core and theme updates, or remove the update button under the Dashboard menu.', 'disable-email-notification-for-auto-updates' ); ?>
                 </p>
                 <div class="notice-buttons">
                     <a href="<?php echo esc_url( menu_page_url( $plugin_slug_name, false ) ); ?>" class="button button-primary">
-                        <?php esc_html_e( 'Check Features', 'wp-custom-search-box-itc' ); ?>
+                        <?php esc_html_e( 'Check Features', 'disable-email-notification-for-auto-updates' ); ?>
                     </a>
                     <a href="<?php echo esc_url( add_query_arg( 'dismiss_notice', 'true' ) ); ?>" class="button button-secondary">
-                        <?php esc_html_e( 'Dismiss Notice', 'wp-custom-search-box-itc' ); ?>
+                        <?php esc_html_e( 'Dismiss Notice', 'disable-email-notification-for-auto-updates' ); ?>
                     </a>
                 </div>
             </div>

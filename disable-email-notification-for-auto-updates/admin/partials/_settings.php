@@ -102,3 +102,11 @@ $default_setting_sanitized_wp_themes = esc_attr($settings['wp_themes']);
     submit_button( esc_html__('Save Changes', 'disable-email-notification-for-auto-updates'), 'primary itc_btn_sm' );
     ?>
 </form>
+
+<tr valign="top">
+    <th scope="row" class="menu_tbl_heading">
+        <span class="itc_title_bold"><?php esc_html_e('IMPORTANT!', 'disable-email-notification-for-auto-updates'); ?></span>
+        <span><?php esc_html_e('- IT IS NOT RECOMMENDED TO DISABLE WORDPRESS CORE UPDATES, OR EVEN THEME AND PLUGIN UPDATES. ALWAYS KEEP THEM UPDATED FOR SECURITY REASONS.', 'disable-email-notification-for-auto-updates'); ?></span>
+        <br><span><?php esc_html_e('- ALWAYS KEEP THEM UPDATED FOR SECURITY REASONS.', 'disable-email-notification-for-auto-updates'); ?></span>
+    </th>
+</tr>

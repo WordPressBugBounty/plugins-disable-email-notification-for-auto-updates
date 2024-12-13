@@ -9,7 +9,7 @@ if( ! class_exists( 'ITC_Disable_Update_Notifications_BaseController' ) ) {
 				'name'      => 'itc_disable_update_notifications',
 				'title'     => __( 'Disable Email Notifications and Block Plugin, WP Core, and Theme Updates', 'disable-email-notification-for-auto-updates' ),
 				'slug'      => 'itc-disable_update_notifications',
-				'version'   => ( defined( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION' ) ) ? ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION : '1.0.3',
+				'version'   => ( defined( 'ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION' ) ) ? ITC_DISABLE_UPDATE_NOTIFICATIONS_VERSION : '1.0.4',
 				'settings'  => 'itc_disable_update_notifications_settings',
 			);
 		}

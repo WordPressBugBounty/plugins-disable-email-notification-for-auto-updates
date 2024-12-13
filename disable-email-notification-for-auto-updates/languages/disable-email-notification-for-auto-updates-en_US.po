@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: disable-email-notification-for-auto-updates-v1.0.3\n"
-"POT-Creation-Date: 2024-12-13 17:35+0545\n"
-"PO-Revision-Date: 2024-12-13 17:36+0545\n"
+"POT-Creation-Date: 2024-12-14 03:56+0545\n"
+"PO-Revision-Date: 2024-12-14 03:57+0545\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -23,21 +23,21 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: admin/class-admin.php:118
+#: admin/class-admin.php:120
 msgid "New Features Added: "
 msgstr ""
 
-#: admin/class-admin.php:119
+#: admin/class-admin.php:121
 msgid ""
 " Block specific plugin updates, block WordPress core and theme updates, or "
 "remove the update button under the Dashboard menu."
 msgstr ""
 
-#: admin/class-admin.php:123
+#: admin/class-admin.php:125
 msgid "Check Features"
 msgstr ""
 
-#: admin/class-admin.php:126
+#: admin/class-admin.php:128
 msgid "Dismiss Notice"
 msgstr ""
 
@@ -77,12 +77,12 @@ msgstr ""
 msgid "Ideas To Code"
 msgstr ""
 
-#: admin/partials/_disable_plugin_updates.php:19
-#: admin/partials/_disable_plugin_updates.php:25
+#: admin/partials/_disable_plugin_updates.php:21
+#: admin/partials/_disable_plugin_updates.php:27
 msgid "["
 msgstr ""
 
-#: admin/partials/_disable_plugin_updates.php:34
+#: admin/partials/_disable_plugin_updates.php:38
 #: admin/partials/_settings.php:102
 msgid "Save Changes"
 msgstr ""
@@ -132,6 +132,20 @@ msgstr ""
 
 #: admin/partials/_settings.php:89
 msgid "Block WordPress Theme updates"
+msgstr ""
+
+#: admin/partials/_settings.php:108
+msgid "IMPORTANT!"
+msgstr ""
+
+#: admin/partials/_settings.php:109
+msgid ""
+"- IT IS NOT RECOMMENDED TO DISABLE WORDPRESS CORE UPDATES, OR EVEN THEME AND "
+"PLUGIN UPDATES. ALWAYS KEEP THEM UPDATED FOR SECURITY REASONS."
+msgstr ""
+
+#: admin/partials/_settings.php:110
+msgid "- ALWAYS KEEP THEM UPDATED FOR SECURITY REASONS."
 msgstr ""
 
 #: admin/partials/_youtube.php:1
@@ -184,7 +198,7 @@ msgstr ""
 msgid "nav-tab-active"
 msgstr ""
 
-#: includes/BaseController.php:11
+#: includes/BaseController.php:10
 msgid ""
 "Disable Email Notifications and Block Plugin, WP Core, and Theme Updates"
 msgstr ""
