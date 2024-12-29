@@ -4,20 +4,24 @@ Donate link: https://ideastocode.com/
 Tags: Disable update notification Emails, Block Specific Plugin updates, Block WordPress Core updates, Block Themes updates, Hide Updates from Dashboard
 Requires at least: 5.5
 Tested up to: 6.7
-Stable tag:   1.0.4
+Stable tag:   1.0.5
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin disables email notifications for auto-updates and blocks updates for specific plugins, WordPress core, and themes.
+This plugin disables email notifications for auto-updates and blocks updates for specific plugins, hide plugins, WordPress core, and themes.
 
 == Description ==
 
 Key Features:
 - Disable Email Notifications for Auto-Updates
-- Block Specific Plugin Updates: You can choose plugins to block
+- Block/hide Specific Plugin Updates: You can choose plugins to block/hide (plugin's list)
 - Block WordPress Core and Theme Updates
 - Remove Update Buttons from Admin Panel (under Dashboard menu)
+
+**Check Our Another Plugin**
+- <a href="https://wordpress.org/plugins/improve-website-security/" target="_blank">Improve Website Security</a> | <a href="https://wordpress.org/plugins/improve-website-security/?preview=1" target="_blank">Live Preview It</a>
+- <a href="https://wordpress.org/plugins/enable-svg-webp-ico-upload/" target="_blank">Enable SVG, WebP, and ICO Upload</a> | <a href="https://wordpress.org/plugins/enable-svg-webp-ico-upload/?preview=1" target="_blank">Live Preview It</a>
 
 **Disable Email Notifications for Auto-Updates:**
 With the introduction of WordPress 5.5, the auto-update feature was enabled, and email notifications started being sent for every update made. By simply installing this plugin, you can stop receiving these annoying notifications for every auto-update made to plugins, themes, or even the WordPress core. Please note that this plugin will not affect the auto-update feature of WordPress if it is enabled.
@@ -34,9 +38,9 @@ If you do not want to see the "Updates" menu under the Dashboard, you can easily
 **Default Settings:**
 By default, only the email notification feature is turned on; other settings must be configured manually.
 
-**Tutorial video (Old Features, New Video Coming Soon)**
+**Tutorial video**
 
-https://www.youtube.com/watch?v=lno6bmiWbFs
+https://www.youtube.com/watch?v=3U4QM7UZ6D8
 
 If you want to learn more and see how this plugin works - please check our<a href="https://ideastocode.com/plugins/disable-automatic-update-email-notification-in-wordpress/" target="_blank"> website - ideastocode.com.</a> 
 
@@ -66,9 +70,9 @@ Yes, you can use this plugin with any theme. We have tried with popular themes s
 
 = Why are some plugin updates not hidden? =
 
-This plugin uses the default WordPress filter to block plugin updates. However, some premium plugins use their own APIs, which may bypass the default WordPress mechanisms. As a result, the code only blocks updates for plugins that follow the default WordPress update system. To mitigate this, we've added CSS and fallback JavaScript to hide the update notifications as much as possible. However, you may still notice some extra space due to these hidden notifications.
+This plugin uses the default WordPress filter to block plugin updates. However, some premium plugins use their own APIs, which may bypass the default WordPress mechanisms. As a result, the code only blocks updates for plugins that follow the default WordPress update system. To mitigate this, we've added CSS and fallback JavaScript to hide the update notifications as much as possible.
 
-= Will Disable email Notification for auto-updates plugin stops plugin, themes or WordPress updates?   =
+= Will Disable email Notification for auto-updates plugin stops plugin, themes or WordPress updates? =
 
 No, this plugin will only disable the email notifications that you receive after an auto-updates of plugins, themes, or WordPress core. If Auto Updates are enabled, your plugins, themes, and WordPress will update automatically.
 
@@ -79,8 +83,12 @@ No, this plugin will only disable the email notifications that you receive after
 3. Block Specific Plugin Updates
 4. Block WP Core Updates
 5. Block Theme Updates
+6. Removes Plugin Updates notifications
 
 == Changelog ==
+
+= 1.0.5 =
+* Hide Plugin from the Plugin's List
 
 = 1.0.4 =
 * Minor updates and added FAQs
@@ -98,4 +106,4 @@ No, this plugin will only disable the email notifications that you receive after
 * Initial release.
 
 == Upgrade Notice ==
-Please update to the latest version 1.0.4
+Please update to the latest version 1.0.5

@@ -17,7 +17,10 @@ public function add_custom_css_js_hide_plugins_itc() {
                 $plugin_slug = dirname( $plugin_key );
 
                 // Output CSS 
-               echo '#' . esc_attr( $plugin_slug ) . '-update .update-message.notice.inline.notice-warning.notice-alt { visibility: hidden!important; }';
+               echo '#' . esc_attr( $plugin_slug ) . '-update .update-message.notice.inline.notice-warning.notice-alt { 
+					visibility: hidden!important; 
+					margin-bottom: -36px!important; 
+				}';
 
             }
         }
@@ -36,6 +39,7 @@ public function add_custom_css_js_hide_plugins_itc() {
                 var notice = document.querySelector("#' . esc_js( $plugin_slug ) . '-update .update-message.notice.inline.notice-warning.notice-alt");
                 if (notice) {
                     notice.style.visibility = "hidden";
+					notice.style.marginBottom = "-36px";
                 }';
             }
         }
