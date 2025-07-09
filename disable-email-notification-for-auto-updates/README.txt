@@ -3,7 +3,7 @@ Contributors: ideastocode
 Donate link: https://ideastocode.com/
 Tags: Disable update notification Emails, Block Specific Plugin updates, Block WordPress Core updates, Block Themes updates, Hide Updates from Dashboard
 Requires at least: 5.5
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag:   1.0.5
 Requires PHP: 7.0
 License: GPLv2 or later
